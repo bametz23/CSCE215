@@ -1,1 +1,12 @@
-# CSCE215
+<h1> University of South Carolina </h1>
+
+<h3> CSCE 215 - Linux/UNIX Fundamentals </h3>
+
+  Spring 2016
+
+  Instructor: Pat O'keefe
+
+<i> Homework/projects </i>
+<h2> Grade: B+
+  
+  Note:  This is the data I was able to recover from my CSCE215 directory on my linux machine at school.  Some of the files/directories may have missing data or data that should be in other directories.  This was my first experience to the linux environment.
