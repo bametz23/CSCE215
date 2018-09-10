@@ -1,0 +1,21 @@
+bmetz
+l-1d39-05
+03-17-2016 - 10:17:22 AM
+#Question 1
+	find /usr/local/tmp/election2008 -name "*.csv"
+
+#Question 2
+	find /usr/local/tmp/election2008 -name "*ug.csv"
+
+#Question 3
+	find /usr/local/tmp/election2008 -name "*ug0*"
+
+#Question 4
+	find /usr/local/tmp/election2008 -name "*ul0*" -o -name "*ugh0*"
+
+#Question 5
+	find /usr/local/tmp/election2008 -name "Jan*.csv" -o -name "Feb*.csv" -o -name "Mar*.csv" -o -name "Apr*.csv" -o -name "May*.csv" -o -name "Jun*.csv" -o -name "Jul*.csv" -o -name "Aug0*.cs
+
+
+#Question 6
+	find /usr/local/tmp/election2008 -name "*.csv" -exec ./extractdata "{}" ";" > ~/polls.csv

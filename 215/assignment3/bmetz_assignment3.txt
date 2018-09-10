@@ -1,0 +1,29 @@
+bmetz
+l-1d39-12
+03-29-2016 - 09:38:09 AM
+
+#Part 1
+
+#Question 1
+	cut -d ',' -f 14 polls.csv
+
+#Question 2
+	cut -d ',' -f 14 polls.csv | fromdos | sort | uniq | wc -l
+
+
+#Part 2
+
+#Question 1
+	cat /usr/local/tmp/Words | tr 'A-Z' 'a-z'
+
+#Question 2
+	cat /usr/local/tmp/Words | tr 'A-Z' 'a-z' | sed '0~2d' > words
+
+#Question 3
+	 cat words | fromdos | grep '^.....$' | wc -w
+
+#Question 4
+	 cat words | fromdos | grep '^a.....$' | wc -w
+
+#Question 5
+	cat $HOME/words | fromdos | grep -i -E ' [bcdfghjklmnpqrstvwxyz]{6}'
