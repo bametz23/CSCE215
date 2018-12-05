@@ -13,3 +13,7 @@
 
 <i> <b> Some of the files/directories may have missing data or data that should be in other directories.  This was my first experience to the linux environment.  </b> </i>
 
+  <br></br>
+<p align="left">
+  <img src="http://www.dcoss.org/dcoss12/resources/usc.jpg" width="200">
+ </p>
